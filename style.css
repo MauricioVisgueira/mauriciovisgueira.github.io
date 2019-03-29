@@ -1,5 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
+body {
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+  background-color: #505962;
+}
 
+/*--- Nav Scrolling Offset --*/
+.offset:before {
+    height: 4rem;
+    margin-top: -4rem;
+    content: "";
+    display: block;
+}
+
+/*--- Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+    padding: 1rem;
+}
 
 
 
