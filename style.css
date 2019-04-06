@@ -4,7 +4,6 @@ body {
   overflow: hidden;
   font-family: 'Lato', sans-serif;
   color: #505962;
-  background-color: #505962; /*-- Cor do Fundo --*/
 }
 
 /*--- Nav Scrolling Offset --*/
@@ -52,6 +51,11 @@ body {
     transition: background-color 1s ease 0s;
 }
 
+/*============ LANDING PAGE ============*/
+
+.home-inner {
+  background-image: url('img/mvs2.png');
+}
 
 
 
