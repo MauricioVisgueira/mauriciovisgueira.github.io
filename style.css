@@ -54,9 +54,42 @@ body {
 /*============ LANDING PAGE ============*/
 
 .home-inner {
-  background-image: url('img/mvs2.png');
+  background-image: url('img/website-background.png');
 }
 
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+}
+.caption h1 {
+  color: white;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+.caption h3 {
+  color: white;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 2rem;
+}
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: .8rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: inline-block!important;
+}
 
 
 /*============ BOOTSTRAP BREAK POINTS:

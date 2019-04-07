@@ -37,3 +37,11 @@ $(document).ready(function()  {
     } //End if
   });
 });
+
+/*============ Bouncing Down Arrow / Seta para Baixo ============*/
+
+$(document).ready(function()  {
+  $(window).scroll(function() {
+    $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250);
+  });
+});
